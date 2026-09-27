@@ -1,14 +1,9 @@
-/* Basic CSS */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f7fb;
     color: #222;
 }
-
-
-/* Navigation */
 
 nav {
     background-color: #172554;
@@ -39,9 +34,6 @@ nav h2 {
     color: #93c5fd;
 }
 
-
-/* Hero */
-
 .hero {
     min-height: 500px;
 
@@ -71,9 +63,6 @@ nav h2 {
     line-height: 1.6;
 }
 
-
-/* Buttons */
-
 .buttons {
     display: flex;
     justify-content: center;
@@ -96,9 +85,6 @@ nav h2 {
     background-color: #172554;
 }
 
-
-/* Common Sections */
-
 section {
     padding: 60px 10%;
     .profile img {
@@ -115,9 +101,6 @@ section > h2 {
     margin-bottom: 30px;
 }
 
-
-/* About */
-
 #about {
     background-color: white;
     text-align: center;
@@ -128,9 +111,6 @@ section > h2 {
     margin: 10px auto;
     line-height: 1.6;
 }
-
-
-/* Skills */
 
 .skills-grid {
     display: grid;
@@ -158,9 +138,6 @@ section > h2 {
 .skill-card:hover {
     background-color: #eff6ff;
 }
-
-
-/* Projects */
 
 #projects {
     background-color: white;
@@ -191,9 +168,6 @@ section > h2 {
     background-color: #dbeafe;
 }
 
-
-/* Education */
-
 .education-card {
     max-width: 600px;
 
@@ -207,9 +181,6 @@ section > h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
-
-
-/* Contact */
 
 #contact {
     background-color: #dbeafe;
@@ -233,9 +204,6 @@ section > h2 {
     text-decoration: underline;
 }
 
-
-/* Footer */
-
 footer {
     background-color: #172554;
     color: white;
@@ -244,9 +212,6 @@ footer {
 
     padding: 20px;
 }
-
-
-/* Responsive Design */
 
 @media (max-width: 700px) {
 
