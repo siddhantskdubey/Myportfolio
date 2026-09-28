@@ -143,8 +143,8 @@ section > h2 {
     background-color: white;
 }
 
-.projects-grid {
-    display: grid;
+.projects-flex {
+    display: flex;
 
     grid-template-columns: repeat(3, 1fr);
 
